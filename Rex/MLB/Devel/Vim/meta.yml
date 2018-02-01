@@ -1,0 +1,4 @@
+Name: Rex::MLB::Devel::Vim
+Description: Install and configure vim to MLB's liking
+Author: Mitch Broadhead <mitch.broadhead@gmail.com>
+License: Apache 2.0
