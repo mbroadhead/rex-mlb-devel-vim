@@ -23,6 +23,9 @@ let g:solarized_termtrans = 1 " This gets rid of the grey background
 autocmd BufNewFile,BufRead Rexfile  set ft=perl
 autocmd BufNewFile,BufRead *.sls set ft=yaml
 
+autocmd FileType perl set autoindent smartindent
+autocmd FileType perl set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+
 set bg=light
 map <C-n> :NERDTreeToggle<CR>
 let g:airline_theme='solarized'
